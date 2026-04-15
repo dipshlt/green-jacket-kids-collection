@@ -1,0 +1,119 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Jacket Kids</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+    }header {
+  background: #020617;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #1e293b;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+header p {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #020617;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid #1e293b;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+video {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  background: black;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.card-desc {
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #64748b;
+  font-size: 13px;
+  border-top: 1px solid #1e293b;
+  margin-top: 30px;
+}
+
+  </style>
+</head>
+<body><header>
+  <h1>Green Jacket Kids</h1>
+  <p>Custom Sora AI Video Gallery</p>
+</header><div class="container">
+  <div class="grid"><!-- COPY THIS BLOCK TO ADD MORE VIDEOS -->
+<div class="card">
+  <video controls>
+    <source src="your-video.mp4" type="video/mp4">
+  </video>
+  <div class="card-content">
+    <div class="card-title">Video Name</div>
+    <div class="card-desc">Short description here.</div>
+  </div>
+</div>
+<!-- END BLOCK -->
+
+<div class="card">
+  <video controls>
+    <source src="your-video-2.mp4" type="video/mp4">
+  </video>
+  <div class="card-content">
+    <div class="card-title">Another Clip</div>
+    <div class="card-desc">Another description.</div>
+  </div>
+</div>
+
+  </div>
+</div><footer>
+  © 2026 Green Jacket Kids Collection<br>These were fetched from either Sora AI or TikTok.
+</footer></body>
+</html>
